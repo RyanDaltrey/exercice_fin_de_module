@@ -298,4 +298,10 @@ header {
     display: flex;
     background-color: rgb(196, 196, 196);
     margin: 5px;
+}#texte_footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(24, 108, 176) ;
+    padding: 10px;
+    color: white;
 }
