@@ -58,19 +58,20 @@
     margin: 20px 5px;
 }
 
-#titre_le_formateur {
+#infos_le_formateur {
     display: flex;
     justify-content: start;
+    align-items: first baseline;
 }
 
-#content_film_le_formateur{
+#block_film_le_formateur{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
 }
 
-#infos_le_formateur {
-    color: rgb(242, 29, 65);
+#content_le_formateur {
+   
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -83,9 +84,28 @@
     margin: 10px 5px;
     width: 30%;
     text-align: end;
+    font-size: 20px;
 }
 
 .titre_du_film{
     padding: 0px 10px;
-    font-size: 25px;
+    font-size: 30px;
+}
+
+.date_de_sortie{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.image_etoile {
+    width: 150px;
+}
+
+#texte_comedie{
+    background-color: rgb(79, 139, 26);
+    width: 45%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
 }
