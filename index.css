@@ -16,9 +16,6 @@
     width: 25%;
     top: 135px;
     right: 150px;
-    /* display: flex;
-    flex-direction: column;
-    flex-wrap: wrap; */
     background-color: rgba(0, 0, 0, 0.6);
     padding:0px 0px 30px 30px;
     border-radius: 5px;
@@ -36,5 +33,40 @@
     color: white;
     border: none;
     border-radius: 2px;
+}
 
+#boutton_tarif , #boutton_film {
+    margin-top: 20px;
+    max-width: 100%;
+    padding: 20px 23.47%;
+    font-size: 25px;
+    background-color: rgb(20, 81, 132);
+    color: white;
+    border: none;
+}
+
+#boutton_tarif {
+    margin-right: 10px;
+}
+
+@media screen and (max-width:480px){
+
+    #image_navbar {
+        display: none;
+    }
+
+    #content_sur_image_navbar{
+        display: none;
+    }
+    
+    #boutton_tarif , #boutton_film {
+        margin-top: 20px;
+        max-width: 70%;
+        padding: 10px 90px 10px 90px;
+        font-size: 15px;
+        background-color: rgb(20, 81, 132);
+        color: white;
+        border: none;
+    } 
+    
 }
