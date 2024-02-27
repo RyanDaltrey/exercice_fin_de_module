@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Uniform;
+    src: url(./assets/fonts/Uniform.ttf);
+}
+
+body {
+    font-family: Uniform;
+}
+
+header {
+    background-color: rgb(24, 108, 176);
+    padding: 5px;
+    color: white;
+}
+
+#titre_header{
+    position: absolute;
+    margin-left: 15px;
+    margin-top: 5px;
+    padding:15px;
+    font-size: 11px;
+    
+}
+
+#block_moncompte_espacepro{
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+    font-size: 15px;
+
+}
+
+.icons_header{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    margin-left: 15px;
+    padding: 5px;
+}
+
+.moncompte_texte{
+    margin-right: 10px;
+}
+
