@@ -131,3 +131,171 @@ header {
     } 
     
 }
+#titre_tarifs , #titre_films {
+    margin: 15px;
+    color: rgb(20, 81, 132);
+}
+
+#block_formule_illimity{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+#block_formule_solo{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+#formule_illimity_et_infos{
+ background-color: rgb(236, 236, 236);
+ margin: 10px 50px;
+ padding: 5px;
+ box-shadow: 2px 2px rgb(211, 210, 210);
+ border-radius: 2px;
+}
+
+#formule_solo_et_infos{
+    background-color: rgb(236, 236, 236);
+    margin: 10px 50px;
+    padding: 5px;
+    box-shadow: 2px 2px rgb(211, 210, 210);
+    border-radius: 2px;
+}
+
+.texte_formules {
+    font-weight: bold;
+    margin: 0;
+}
+
+.texte_prix{
+    margin: 0;
+}
+.texte_infos{
+    margin:0px;
+    font-size: 20px;
+}
+
+#block_film_a_laffiche{
+    background-color: rgb(236, 236, 236);
+    margin: 10px 50px;
+    padding: 5px;
+    box-shadow: 2px 2px rgb(211, 210, 210);
+    border-radius: 2px;
+}
+
+.image_film {
+    width: 150px;
+    height: 220px;
+    margin: 20px 5px;
+    background-color: white;
+    padding: 5px
+}
+
+#infos_le_formateur {
+    display: flex;
+    align-items: first baseline;
+}
+
+#block_film_le_formateur{
+    display: flex;
+     justify-content: flex-start;
+}
+
+#content_le_formateur {
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.texte_resume_film {
+    padding: 0;
+    margin: 10px 5px;
+    width: 30%;
+    text-align: end;
+    font-size: 20px;
+}
+
+.titre_du_film{
+    padding: 0px 10px;
+    font-size: 30px;
+}
+
+.date_de_sortie{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.image_etoile {
+    width: 150px;
+}
+
+#texte_comedie{
+    background-color: rgb(79, 139, 26);
+    width: 45%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+}
+#texte_action{
+    background-color: rgb(109, 39, 162);
+    width: 45%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+
+#texte_sf{
+    background-color: rgb(121, 72, 8);
+    width: 20%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+#categorie_de_film{
+    display: flex;
+
+}
+#petit_texte{
+    padding: 0px 10px;
+}
+
+#premiere_seance_film_le_formateur , #deuxieme_seance_film_le_formateur, #troisieme_seance_film_le_formateur{
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+    background-color:rgb(20, 81, 132) ;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 20px;
+    margin: 15px 20px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.icons_seance {
+    width: 35px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#texte_complet {
+    background-color: rgb(255, 234, 97);
+    color: black;
+    padding: 5px;
+}
+
+#block_les_seances{
+    display: flex;
+    background-color: rgb(196, 196, 196);
+    margin: 5px;
+}
