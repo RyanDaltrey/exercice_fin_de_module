@@ -1,4 +1,4 @@
-#titre_main {
+#titre_tarifs , #titre_films {
     margin: 15px;
     color: rgb(20, 81, 132);
 }
@@ -42,4 +42,50 @@
 .texte_infos{
     margin:0px;
     font-size: 20px;
+}
+
+#block_film_a_laffiche{
+    background-color: rgb(236, 236, 236);
+    margin: 10px 50px;
+    padding: 5px;
+    box-shadow: 2px 2px rgb(211, 210, 210);
+    border-radius: 2px;
+}
+
+.image_film {
+    width: 150px;
+    height: 220px;
+    margin: 20px 5px;
+}
+
+#titre_le_formateur {
+    display: flex;
+    justify-content: start;
+}
+
+#content_film_le_formateur{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#infos_le_formateur {
+    color: rgb(242, 29, 65);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:start;
+    width: 100%;
+}
+
+.texte_resume_film {
+    padding: 0;
+    margin: 10px 5px;
+    width: 30%;
+    text-align: end;
+}
+
+.titre_du_film{
+    padding: 0px 10px;
+    font-size: 25px;
 }
