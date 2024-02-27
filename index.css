@@ -19,12 +19,16 @@
  background-color: rgb(236, 236, 236);
  margin: 10px 50px;
  padding: 5px;
+ box-shadow: 2px 2px rgb(211, 210, 210);
+ border-radius: 2px;
 }
 
 #formule_solo_et_infos{
     background-color: rgb(236, 236, 236);
     margin: 10px 50px;
     padding: 5px;
+    box-shadow: 2px 2px rgb(211, 210, 210);
+    border-radius: 2px;
 }
 
 .texte_formules {
