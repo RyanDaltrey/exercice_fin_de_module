@@ -48,3 +48,14 @@ header {
     margin-right: 10px;
 }
 
+@media screen and (max-width:480px){
+    
+    #espacepro{
+        display: none;
+    }
+
+    #titre_header{
+        font-size: 15px;
+    }
+    
+}
