@@ -301,12 +301,26 @@ header {
     }
     
     #boutton_tarif , #boutton_film {
-        margin-top: 20px;
-        max-width: 70%;
-        padding: 10px 90px 10px 90px;
-        font-size: 15px;
-        background-color: rgb(20, 81, 132);
-        color: white;
-        border: none;
+       margin: 15px;
+       padding: 15px 80px;
+       font-size: 15px;
     }
+
+    
+
+    #formule_illimity_et_infos , #formule_solo_et_infos{
+        background-color: rgb(236, 236, 236);
+        margin: 10px 50px;
+        padding: 5px;
+        box-shadow: 2px 2px rgb(211, 210, 210);
+        border-radius: 2px;
+        width: 90%;
+       }
+
+    .texte_infos{
+        margin:0px;
+        font-size: 20px;
+        width: 60%;
+    }   
+    
 }
