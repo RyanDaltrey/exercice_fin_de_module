@@ -1,0 +1,40 @@
+#image_navbar_{
+    margin: 5px 15px;
+}
+
+.image_leformateur_navbar{
+    width: 100%;
+    position: relative;
+}
+
+#content_sur_image_navbar{
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    position: absolute;
+    text-align: start;
+    width: 25%;
+    top: 135px;
+    right: 150px;
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+    background-color: rgba(0, 0, 0, 0.6);
+    padding:0px 0px 30px 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+#texte_sur_image_navbar{
+    margin-bottom: 15px;
+}
+
+#boutton_jouer {
+    font-size: 35px;
+    padding: 10px 210px;
+    background-color: rgb(208, 55, 55);
+    color: white;
+    border: none;
+    border-radius: 2px;
+
+}
